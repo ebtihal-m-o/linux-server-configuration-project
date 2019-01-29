@@ -7,7 +7,7 @@ In this project I use Microsoft Azure and ubuntu server.
 ## steps
  1. Create PRIVATE KEY and PUBLIC by run `KEY ssh-keygen` command and copy pub key   
  2. Create virtual machine at Microsoft Azure
- 3. Login to the server
+ 3. Login to the server `ssh Brand@104.45.6.0`
  4. Create a new user named **grader** by run `sudo adduser grader` and give a password for the user ***Password= 11223344***
  5. Give the grader sudo prevelagie by run `sudo vi /etc/sudoers.d/grader` 
  press **i** to insert and write: *grader ALL=(ALL:ALL) NOPASSWD:ALL*
