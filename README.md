@@ -31,7 +31,7 @@ press **esc** and then write :wq to save
     sudo ufw deny 22
     sudo ufw enable 
 12. Change timezone to **UTC** by run `sudo dpkg-reconfigure tzdata` and press enter twice.
-13.  Now you can enter the site using 2200 port  `ssh -p 2200 grader@104.45.6.0`
+13.  Now you can enter the site using 2200 port  `ssh -p 2200 grader@104.45.6.0` passphrase for key=112233
 14. Run `cd /var/www` to clone your app 
 15. Create catalog folder by run `sudo mkdir catalog` 
 16. Change owner of the newly created catalog folder to **grader** `sudo chown -R grader:grader catalog`
