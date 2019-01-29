@@ -1,8 +1,8 @@
 #  udacity-linux-server-configuration
 In this project I use Microsoft Azure and ubuntu server.
 **Ubuntu Server** 14.04 LTS
-##### Reference --> https://github.com/Hisham-Developer/linux-server-configuration#
-##### Reference --> https://github.com/FahadAlsubaie/linux_server_configuration
+###### Reference --> https://github.com/Hisham-Developer/linux-server-configuration#
+###### Reference --> https://github.com/FahadAlsubaie/linux_server_configuration
 
 ## steps
  1. Create PRIVATE KEY and PUBLIC by run `KEY ssh-keygen` command and copy pub key   
